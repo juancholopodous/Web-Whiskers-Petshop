@@ -1,0 +1,72 @@
+/* Global */
+:root {
+    --blanco:#ffffff;
+    --obscuro:#212121;
+    --primariofondo:#fff6e9;
+    --secundariotitulo:#540216;
+    --subtitulo:#bfa37c;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model */
+} 
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    background-color: var(--primariofondo);
+    background-image: linear-gradient(to top, var(--blanco) 0%, #fdfdfd 100%);
+    font-family: 'Baloo 2', sans-serif; 
+}/*Elección de color de fondo para la pagína en general*/
+
+
+/* Titulos */
+.titulo {
+  line-height: 1rem;
+  color: #540216;
+  font-size: 4.8rem;
+  background-color: transparent;
+  text-align: center;
+}
+.subtitulo {
+  color: #bfa37c;
+  font-size: 3.4rem;
+  background-color: #fbdeb6;
+  text-align: center;
+  line-height: 0rem;
+  margin-bottom: 3.5rem;
+}
+
+
+/* Navegación Principal */
+.nav-bg {
+  background-color:#540216;
+}
+
+.navegacion-principal {
+  display: flex;
+  flex-direction: column;
+  background-color:#540216;
+  width: 0 auto;
+}
+
+@media (min-width: 630px) {
+  .navegacion-principal {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.navegacion-principal a {
+  color: var(--primariofondo);
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2rem;
+  }
+
+  .navegacion-principal a:hover {
+    background-color: #D2A68E;
+    color: var(--secundariotitulo);
+  }
