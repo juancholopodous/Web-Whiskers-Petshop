@@ -1,0 +1,34 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.header {
+    width: auto;
+    background-color: v.$titulo;
+    padding-left: 7%;
+    .barra {
+        color: v.$subtitulo;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .titulo span {
+        font-size: 3rem;
+        display: flex; // habilita el uso de justify
+        justify-content: center; //alineación central del span
+    }
+    
+
+    .navegacion-principal {
+        font-size: 2rem;
+        a {
+            padding: 2rem;
+            color: v.$subtitulo;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(248, 255, 240);
+        }
+    }
+}

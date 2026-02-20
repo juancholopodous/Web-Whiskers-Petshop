@@ -1,0 +1,39 @@
+@use 'variables' as v;
+@use 'sass:color';
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model */
+} 
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Baloo 2', sans-serif; 
+    font-size: 16px; /* 1rem = 10px */
+    background-color: var(--primariofondo);
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 900;
+    font-family: v.$fuenteHeading;
+}
+
+h1 { font-size: 4rem; }
+h2 { font-size: 4.6rem; }
+h3 {
+    font-size: 6rem;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}

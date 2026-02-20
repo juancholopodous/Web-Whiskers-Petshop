@@ -1,0 +1,29 @@
+{
+  "name": "whiskers-shops",
+  "version": "1.0.0",
+  "description": "Este proyecto consiste en el diseño y desarrollo de una plataforma web para una tienda de artículos para mascotas. Surge como una iniciativa para consolidar conocimientos técnicos, combinando el aprendizaje académico con la experimentación autónoma.",
+  "homepage": "https://github.com/juancholopodous/Web-Whiskers-Petshop#readme",
+  "bugs": {
+    "url": "https://github.com/juancholopodous/Web-Whiskers-Petshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancholopodous/Web-Whiskers-Petshop.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "gulpfile.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp "
+  },
+  "devDependencies": {
+    "glob": "^13.0.6",
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.97.3",
+    "sharp": "^0.34.5"
+  }
+}
